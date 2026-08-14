@@ -143,49 +143,49 @@ The second page provides deeper analysis of **pricing, availability, reviews and
 
 ```DAX
 Total Listings =
-DISTINCTCOUNT(listings[id])
+DISTINCTCOUNT(Airbnb_Cleand[id])
 ```
 
 ### Average Price
 
 ```DAX
 Average Price =
-AVERAGE(listings[price])
+AVERAGE(Airbnb_Cleand[price])
 ```
 
 ### Median Price
 
 ```DAX
 Median Price =
-MEDIAN(listings[price])
+MEDIAN(Airbnb_Cleand[price])
 ```
 
 ### Average Reviews
 
 ```DAX
 Average Reviews =
-AVERAGE(listings[number_of_reviews])
+AVERAGE(Airbnb_Cleand[number_of_reviews])
 ```
 
 ### Average Minimum Stay
 
 ```DAX
 Average Minimum Stay =
-AVERAGE(listings[minimum_nights])
+AVERAGE(Airbnb_Cleand[minimum_nights])
 ```
 
 ### Average Availability
 
 ```DAX
 Average Availability =
-AVERAGE(listings[availability_365])
+AVERAGE(Airbnb_Cleand[availability_365])
 ```
 
 ### Total Neighbourhoods
 
 ```DAX
 Total Neighbourhoods =
-DISTINCTCOUNT(listings[neighbourhood])
+DISTINCTCOUNT(Airbnb_Cleand[neighbourhood])
 ```
 
 # 💡 Key Business Insights
