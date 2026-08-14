@@ -290,43 +290,6 @@ airbnb-listings-analysis/
     └── pricing_host_analysis.png
 ```
 
-# 🚀 How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/airbnb-listings-analysis.git
-cd airbnb-listings-analysis
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-notebooks/airbnb_data_cleaning_eda.ipynb
-```
-
-### 4. Open the Power BI dashboard
-
-Open:
-
-```text
-powerbi/Airbnb_Analysis_Dashboard.pbix
-```
-
-using Power BI Desktop.
-
 # 📋 Project Deliverables
 
 - ✅ Data quality assessment
