@@ -75,7 +75,6 @@ Important numerical fields included:
 
 `price`, `minimum_nights`, `number_of_reviews`, `reviews_per_month`, `calculated_host_listings_count`, `availability_365`, and `number_of_reviews_ltm`.
 
-> **Note:** Extreme values were investigated before treatment because expensive or highly reviewed Airbnb listings may be genuine observations.
 
 ## ⚙️ Feature Engineering
 
@@ -336,7 +335,3 @@ The final dashboard helps stakeholders understand **listing concentration, prici
 **Focus Areas:** Data Cleaning • Dashboarding • Business Trends • Customer Analysis
 
 ---
-
-## ⭐ Portfolio Statement
-
-> **“Clean data comes before meaningful insights.”**
